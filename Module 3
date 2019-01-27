@@ -1,0 +1,57 @@
+> Candidates<- c("Jeb", “Donald”, "Ted”, “Marco” “Carly”, “Hillary”, “Berine”)
+Error: unexpected input in "Candidates<- c("Jeb", �"
+> ABC_political poll results <- c(4, 62 51, 21, 2, 14, 15)
+Error: unexpected symbol in "ABC_political poll"
+> NCB_ political poll results <- c(12, 75, 43, 19, 1, 21, 19)
+Error: unexpected symbol in "NCB_ political"
+> Cadidates<- c("Jeb", "Donald", "Ted", "Marco", "Carley", "Hillary", "Bernie") 
+> ABE_political_polls_results <- c(4, 62, 51, 21, 2, 14, 15)
+> CBS_political_polls_results <- c(12, 75, 43, 19, 1, 21, 19)
+> 2016_results <- cbind(Cadidates, ABE_political_polls_results, CBS_political_polls_results)
+Error: unexpected input in "2016_"
+> RESULTS <- cbind(Cadidates, ABE_political_polls_results, CBS_political_polls_results)
+> RESULTS
+     Cadidates ABE_political_polls_results
+[1,] "Jeb"     "4"                        
+[2,] "Donald"  "62"                       
+[3,] "Ted"     "51"                       
+[4,] "Marco"   "21"                       
+[5,] "Carley"  "2"                        
+[6,] "Hillary" "14"                       
+[7,] "Bernie"  "15"                       
+     CBS_political_polls_results
+[1,] "12"                       
+[2,] "75"                       
+[3,] "43"                       
+[4,] "19"                       
+[5,] "1"                        
+[6,] "21"                       
+[7,] "19"                       
+> RESULTS.df <- data.frame(Cadidates, ABE_political_polls_results, CBS_political_polls_results)
+> RESULTS.df
+  Cadidates ABE_political_polls_results
+1       Jeb                           4
+2    Donald                          62
+3       Ted                          51
+4     Marco                          21
+5    Carley                           2
+6   Hillary                          14
+7    Bernie                          15
+  CBS_political_polls_results
+1                          12
+2                          75
+3                          43
+4                          19
+5                           1
+6                          21
+7                          19
+> mean(RESULTS.df)
+[1] NA
+Warning message:
+In mean.default(RESULTS.df) :
+  argument is not numeric or logical: returning NA
+  > colMeans(RESULTS.df[,2:3], na.rm = TRUE)
+ABE_political_polls_results 
+                   24.14286 
+CBS_political_polls_results 
+                   27.14286 
