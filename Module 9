@@ -1,0 +1,13 @@
+File chosen for Visualization Assignment: 
+Package: HSAUR
+Item: phosphate 
+Title Phosphate Level Data
+Rows: 33 
+Cols: 9
+has_logical: FALSE
+has_binary: TRUE
+has_numberic: TRUE
+has_character: FALSE
+
+
+>install.packages("HSAUR")
