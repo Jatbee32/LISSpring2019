@@ -1,0 +1,11 @@
+Package: SHANK2ASD
+Title: Association of SHANK2 mutations with ASD's Hyperconnectivity Disorder 
+Version: 0.1
+Authors@R: "Emily Buckley <emilybuckley@mail.usf.edu> [aut, cre]"
+Description: The data set contains 16 samples of human induced pluripotent stem cell derived neurons from 4 weeks and 9 weeks of age
+            four replications at each age. The package will analyze the samples for total synapse number, dendrite complexity, and
+            presence of ASD SHANK2 or SHANK2. Data visualization tools from programs such as ggplot2 can be utilized to assess the 
+            correlation of hyperconnectivity and alterd transcriptome in SHANK2 neurons in ASD patients. 
+Depends: R(>= 3.1.2) 
+License: GNU
+LazyData: true 
